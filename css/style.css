@@ -59,17 +59,17 @@ img{
 .wrapper{
     width: 100%;
     height: 100vh;
-    padding-top: 20px;
     background-color: #000000;
 }
 
 .container{
     width: 100%;
     height: calc(100% - 80px);
-    padding-top: 50px;
+    padding-top: 40px;
     padding-right: 30px;
     padding-left: 30px;
     position: relative;
+    overflow-y: auto;
 }
 
 .col{
@@ -104,7 +104,7 @@ img{
     width: 100%;
     height: 80px;
     background-color: #2b2121;
-      
+    z-index: 3;   
 }
 
 .foot{
@@ -143,8 +143,7 @@ img{
 .call{
     height: 100%;
     align-items: center;
-    background-color: #545454;
-    
+    background-color: #545454;   
 }
 
 
