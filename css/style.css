@@ -7,6 +7,21 @@
 img{
     max-width: 100%;
 }
+.pd-10-xr{
+    padding:10px;
+}
+
+.va{
+    vertical-align: middle;
+}
+
+.bloc{
+    display: block;
+}
+
+.inl{
+    display: inline-block;
+}
 
 .flex{
     display: flex;
@@ -44,7 +59,7 @@ img{
 
 .container{
     width: 100%;
-    height: calc(100% - 120px);
+    height: calc(100% - 80px);
     padding-top: 50px;
     padding-right: 30px;
     padding-left: 30px;
@@ -81,8 +96,24 @@ img{
 
 .footer{
     width: 100%;
-    height: 120px;
+    height: 80px;
     background-color: #2b2121;
     /*Debug*/
     border: 1px solid green;   
+}
+
+.foot{
+    width: 100%;
+    height: 100%;
+}
+
+.lft,
+.end{
+    width: 20%;
+    background-color: lawngreen;
+}
+
+.cntr{
+    width: 60%;
+    background-color: aqua;
 }
