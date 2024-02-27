@@ -8,6 +8,10 @@ img{
     max-width: 100%;
 }
 
+.flex{
+    display: flex;
+}
+
 .overlay{
     background-color: rgba(0,0,0,0.6);
 }
@@ -21,8 +25,10 @@ img{
     bottom: 0;
     left: 0;
     z-index: 10;
+    padding: 3px;
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    font-size: 0.8rem;
 }
 
 .rltv{
@@ -32,13 +38,16 @@ img{
 .wrapper{
     width: 100%;
     height: 100vh;
-    background-color: steelblue;
+    padding-top: 20px;
+    background-color: #000000;
 }
 
 .container{
     width: 100%;
     height: calc(100% - 120px);
-    padding: 40px 40px 10px 40px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
     position: relative;
 }
 
@@ -46,12 +55,28 @@ img{
     width: 100%;
     min-height: 80px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     margin-bottom: 0.6rem;
 }
 
 .col-item{
-    width: calc(100% / 7);   
+    width: calc(100% / 7); 
+}
+
+.tright{
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 5px;
+}
+.option{
+    display: inline-block;
+    background-color: #4a4a4a;
+    padding: 5px;
+    font-size: 0.7rem;
+    border-radius: 8px;
 }
 
 .footer{
@@ -59,6 +84,5 @@ img{
     height: 120px;
     background-color: #2b2121;
     /*Debug*/
-    border: 1px solid green;
-    
+    border: 1px solid green;   
 }
