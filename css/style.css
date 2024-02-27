@@ -8,6 +8,27 @@ img{
     max-width: 100%;
 }
 
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+}
+
+.abs{
+    position: absolute;
+}
+
+.overlay.abs{
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.rltv{
+    position: relative;
+}
+
 .wrapper{
     width: 100%;
     height: 100vh;
@@ -15,5 +36,29 @@ img{
 }
 
 .container{
+    width: 100%;
+    height: calc(100% - 120px);
+    padding: 40px 40px 10px 40px;
+    position: relative;
+}
+
+.col{
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.col-item{
+    width: calc(100% / 7);   
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #2b2121;
+    /*Debug*/
+    border: 1px solid green;
     
 }
